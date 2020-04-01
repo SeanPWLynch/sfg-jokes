@@ -1,31 +1,179 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**
-!**/src/test/**
+Skip to content
+Search or jump to…
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
+Pull requests
+Issues
+Marketplace
+Explore
+
+@SeanPWLynch
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+
+SeanPWLynch
+/
+sfg-petclinic
+0
+0
+0
+ Code Issues 5 Pull requests 0 Actions Projects 0 Wiki Security Insights Settings
+sfg-petclinic/.gitignore
+@SeanPWLynch SeanPWLynch Init
+c2f311c yesterday
+142 lines (118 sloc)  1.83 KB
+
+
+######################
+# Project Specific
+######################
+/build/www/**
+/src/test/javascript/coverage/
+/src/test/javascript/PhantomJS*/
+
+######################
+# Node
+######################
+/node/
+node_tmp/
+node_modules/
+npm-debug.log.*
+
+######################
+# SASS
+######################
+.sass-cache/
+
+######################
+# Eclipse
+######################
+*.pydevproject
 .project
-.settings
-.springBeans
-.sts4-cache
+.metadata
+tmp/
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.factorypath
+/src/main/resources/rebel.xml
 
-### IntelliJ IDEA ###
-.idea
-*.iws
+# External tool builders
+.externalToolBuilders/**
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+######################
+# Intellij
+######################
+.idea/
 *.iml
+*.iws
 *.ipr
+*.ids
+*.orig
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-
-### VS Code ###
+######################
+# Visual Studio Code
+######################
 .vscode/
+
+######################
+# Maven
+######################
+/log/
+/target/
+
+######################
+# Gradle
+######################
+.gradle/
+/build/
+
+######################
+# Package Files
+######################
+*.jar
+*.war
+*.ear
+*.db
+
+######################
+# Windows
+######################
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+######################
+# Mac OSX
+######################
+.DS_Store
+.svn
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+######################
+# Directories
+######################
+/bin/
+/deploy/
+
+######################
+# Logs
+######################
+*.log
+
+######################
+# Others
+######################
+*.class
+*.*~
+*~
+.merge_file*
+
+######################
+# Gradle Wrapper
+######################
+!gradle/wrapper/gradle-wrapper.jar
+
+######################
+# Maven Wrapper
+######################
+!.mvn/wrapper/maven-wrapper.jar
+
+######################
+# ESLint
+######################
+.eslintcache
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
